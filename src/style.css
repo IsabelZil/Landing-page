@@ -1,0 +1,105 @@
+:root {
+  --back-gradient: linear-gradient(rgb(105, 73, 54), rgb(47, 33, 24));
+  --coloryellow: rgb(255, 200, 61);
+  --colorbraun: rgb(46, 32, 23);
+  --colorlightyellow: rgb(226, 214, 186);
+  --transitionspeed: all 200ms ease-in-out;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--coloryellow);
+}
+h1 {
+  font-size: 50px;
+}
+
+h3{
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--coloryellow);
+}
+
+ol {
+  list-style: none;
+}
+
+p {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.alignIcon {
+  display: flex;
+  padding-right: 15px;
+}
+
+.alignIcon div {
+  font-size: 40px;
+  transform: rotate(270deg);
+}
+
+.align-olItems {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.buttonLost {
+  background-color: #ffc83d;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 4px 2px 2px rgb(226, 214, 186);
+  cursor: grab;
+  transition: var(--transitionspeed);
+}
+
+.buttonLost::after {
+  content: "Let's get lost!";
+}
+
+.buttonLost:hover::after {
+  content: "👀";
+  font-size: 50px;
+}
+
+.buttonLost:hover {
+  color: #302118;
+  background-color: var(--coloryellow);
+}
+
+.content {
+  padding: 0;
+  margin: 0;
+}
+
+.imgHero {
+  width: 100%;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  cursor: grab;
+  color: var(--colorlightyellow);
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.textHero {
+  background-color: var(--colorbraun);
+  color: var(--colorlightyellow);
+  padding: 25px;
+}
+
+.textHero h1 {
+  color: var(--coloryellow);
+}
+
