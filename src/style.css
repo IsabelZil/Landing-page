@@ -117,4 +117,8 @@ h1{
 .buttonLost:hover::after {
   font-size: 25px;
 }
+.textHero{
+  padding: 0 35px;
+  padding-top: 25px;
+}
 }
