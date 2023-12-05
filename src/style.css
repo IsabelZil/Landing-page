@@ -103,3 +103,21 @@ p {
   color: var(--coloryellow);
 }
 
+@media (max-width: 768px){
+h1{
+  font-size:35px;
+}
+p{
+  font-size:12px;
+}
+
+.buttonLost {
+  font-size: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.buttonLost:hover::after {
+  font-size: 25px;
+}
+}
