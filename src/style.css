@@ -10,11 +10,12 @@ body {
   font-family: "Roboto", sans-serif;
   background: var(--coloryellow);
 }
+
 h1 {
   font-size: 50px;
 }
 
-h3{
+h3 {
   font-size: 15px;
   line-height: 25px;
   color: var(--coloryellow);
@@ -74,8 +75,8 @@ p {
 }
 
 .content {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .imgHero {
@@ -103,22 +104,22 @@ p {
   color: var(--coloryellow);
 }
 
-@media (max-width: 768px){
-h1{
-  font-size:35px;
-}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
 
-.buttonLost {
-  font-size: 15px;
-  width: 150px;
-  height: 150px;
-}
+  .buttonLost {
+    font-size: 15px;
+    width: 150px;
+    height: 150px;
+  }
 
-.buttonLost:hover::after {
-  font-size: 25px;
-}
-.textHero{
-  padding: 0 45px;
-  padding-top: 25px;
-}
+  .buttonLost:hover::after {
+    font-size: 25px;
+  }
+  .textHero {
+    padding: 0 45px;
+    padding-top: 25px;
+  }
 }
